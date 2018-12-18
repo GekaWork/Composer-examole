@@ -1,0 +1,21 @@
+{
+    "name": "artofabsentt/composer-example-packge",
+    "description": "Exampl projekt",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Evgen Koval",
+            "email": "absentxgm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "artofabs\\parser\\":"src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
