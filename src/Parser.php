@@ -11,7 +11,7 @@ namespace artofabs\parser;
 
 class Parser implements ParserInterface
 {
-    public function process(string $url, string $tag): array
+    public function process( string $tag, string $url): array
     {
              // TODO: Implement process() method.
         $htmlPage = file_get_contents($url,$tag);
